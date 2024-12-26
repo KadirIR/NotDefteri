@@ -130,6 +130,10 @@ Bu projede aşağıdaki tasarım desenleri uygulanmıştır:
    - Tema oluşturma işlemlerinde kullanılır.
    - Kullanıcıların seçimine göre farklı arayüz temaları oluşturulur (ör. açık veya koyu tema).
 
+6. Singleton Deseni:
+   
+   - DatabaseConnection sınıfı için uygulanmıştır ve tek bir veritabanı bağlantısı sağlar.
+     
 -- **Test:** --
 
 Projenin test edilmesi için aşağıdaki adımları takip edin:
