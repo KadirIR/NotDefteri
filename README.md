@@ -63,6 +63,16 @@ Projeyi çalıştırmak için aşağıdaki yazılım ve araçların sisteminizde
        FOREIGN KEY (note_id) REFERENCES Notes(id),
        FOREIGN KEY (tag_id) REFERENCES Tags(id)
    );
+
+    CREATE TABLE `users` (
+      `id` int(11) NOT NULL,
+      `username` varchar(255) NOT NULL,
+      `password` varchar(255) NOT NULL,
+      `email` varchar(255) NOT NULL,
+      `user_type` enum('user','admin') DEFAULT 'user',
+      `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
    ```
 
 6. Projeyi derleyin ve çalıştırın.
