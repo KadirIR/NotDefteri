@@ -131,6 +131,6 @@ Projenin test edilmesi için aşağıdaki adımları takip edin:
 
 -- **Proje Ekibi:** --
 
-- **Betül Yılmaz**: [GitHub Profili](https://github.com/5220505016)
 - **Kadir Ir**: [GitHub Profili](https://github.com/KadirIR)
+- **Betül Yılmaz**: [GitHub Profili](https://github.com/5220505016)
 
